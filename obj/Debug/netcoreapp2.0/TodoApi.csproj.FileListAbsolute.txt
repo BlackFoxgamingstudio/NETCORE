@@ -1,0 +1,11 @@
+/Users/russellp/Desktop/gcloud/NET API/dotnet-core-api/bin/Debug/netcoreapp2.0/TodoApi.deps.json
+/Users/russellp/Desktop/gcloud/NET API/dotnet-core-api/bin/Debug/netcoreapp2.0/TodoApi.runtimeconfig.json
+/Users/russellp/Desktop/gcloud/NET API/dotnet-core-api/bin/Debug/netcoreapp2.0/TodoApi.runtimeconfig.dev.json
+/Users/russellp/Desktop/gcloud/NET API/dotnet-core-api/bin/Debug/netcoreapp2.0/TodoApi.dll
+/Users/russellp/Desktop/gcloud/NET API/dotnet-core-api/bin/Debug/netcoreapp2.0/TodoApi.pdb
+/Users/russellp/Desktop/gcloud/NET API/dotnet-core-api/obj/Debug/netcoreapp2.0/TodoApi.csprojAssemblyReference.cache
+/Users/russellp/Desktop/gcloud/NET API/dotnet-core-api/obj/Debug/netcoreapp2.0/TodoApi.csproj.CoreCompileInputs.cache
+/Users/russellp/Desktop/gcloud/NET API/dotnet-core-api/obj/Debug/netcoreapp2.0/TodoApi.AssemblyInfoInputs.cache
+/Users/russellp/Desktop/gcloud/NET API/dotnet-core-api/obj/Debug/netcoreapp2.0/TodoApi.AssemblyInfo.cs
+/Users/russellp/Desktop/gcloud/NET API/dotnet-core-api/obj/Debug/netcoreapp2.0/TodoApi.dll
+/Users/russellp/Desktop/gcloud/NET API/dotnet-core-api/obj/Debug/netcoreapp2.0/TodoApi.pdb
