@@ -9,3 +9,14 @@
 /Users/russellp/Desktop/gcloud/NET API/dotnet-core-api/obj/Debug/netcoreapp2.0/TodoApi.AssemblyInfo.cs
 /Users/russellp/Desktop/gcloud/NET API/dotnet-core-api/obj/Debug/netcoreapp2.0/TodoApi.dll
 /Users/russellp/Desktop/gcloud/NET API/dotnet-core-api/obj/Debug/netcoreapp2.0/TodoApi.pdb
+C:\Users\russe\Desktop\gkpskillup\NETCOREMICRO\NETCORE\bin\Debug\netcoreapp2.0\TodoApi.deps.json
+C:\Users\russe\Desktop\gkpskillup\NETCOREMICRO\NETCORE\bin\Debug\netcoreapp2.0\TodoApi.runtimeconfig.json
+C:\Users\russe\Desktop\gkpskillup\NETCOREMICRO\NETCORE\bin\Debug\netcoreapp2.0\TodoApi.runtimeconfig.dev.json
+C:\Users\russe\Desktop\gkpskillup\NETCOREMICRO\NETCORE\bin\Debug\netcoreapp2.0\TodoApi.dll
+C:\Users\russe\Desktop\gkpskillup\NETCOREMICRO\NETCORE\bin\Debug\netcoreapp2.0\TodoApi.pdb
+C:\Users\russe\Desktop\gkpskillup\NETCOREMICRO\NETCORE\obj\Debug\netcoreapp2.0\TodoApi.csprojAssemblyReference.cache
+C:\Users\russe\Desktop\gkpskillup\NETCOREMICRO\NETCORE\obj\Debug\netcoreapp2.0\TodoApi.csproj.CoreCompileInputs.cache
+C:\Users\russe\Desktop\gkpskillup\NETCOREMICRO\NETCORE\obj\Debug\netcoreapp2.0\TodoApi.AssemblyInfoInputs.cache
+C:\Users\russe\Desktop\gkpskillup\NETCOREMICRO\NETCORE\obj\Debug\netcoreapp2.0\TodoApi.AssemblyInfo.cs
+C:\Users\russe\Desktop\gkpskillup\NETCOREMICRO\NETCORE\obj\Debug\netcoreapp2.0\TodoApi.dll
+C:\Users\russe\Desktop\gkpskillup\NETCOREMICRO\NETCORE\obj\Debug\netcoreapp2.0\TodoApi.pdb
