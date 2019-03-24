@@ -5,23 +5,37 @@ angular.module('todoApp')
     $scope.loadingMessage = "Loading...";
     $scope.todoList = null;
     $scope.editingInProgress = false;
-    $scope.newToDoSubject = "";
-    $scope.newToDoName = "";
-    $scope.newToDoDescription = "";
-    $scope.newToDoStartTime = "";
-    $scope.newToDoCreationDate ="";
-    $scope.newToDoStatus ="";
-
-
+    $scope.newToDoaccount = "";
+    $scope.newToDocurrent_activity = "";
+    $scope.newToDocurrent_task = "";
+    $scope.newToDocontact = "";
+    $scope.newToDocreationdate ="";
+    $scope.newToDorole ="";
+    $scope.newToDousecase ="";
+    $scope.newToDonote ="";
+    $scope.newToDoAction_plan ="";
+    $scope.newToDoemail_template ="";
+    $scope.newToDouser ="";
+    $scope.newToDocreationdate ="";
+    $scope.newToDostartdate ="";
+    $scope.newToDoenddate ="";
 
     $scope.editInProgressTodo = {
-        subject: "",
-        name: "",
-        description: "",
+        account: "",
+        current_activity: "",
+        current_task: "",
+        contact: "",
         creationdate: "",
-        status: "",
-        starttime: "",
-        isComplete: false,
+        role: "",
+        usecase: "",
+        note: "",
+        Action_plan: "",
+        email_template: "",
+        user: "",
+        creationdate: "",
+        startdate: "",
+        enddate:"",
+        IsComplete: false,
         id: 0
     };
 
@@ -31,13 +45,20 @@ angular.module('todoApp')
         todo.edit = !todo.edit;
         if (todo.edit) {
             
-            $scope.editInProgressTodo.subject = todo.subject;
-            $scope.editInProgressTodo.name = todo.name;
-            $scope.editInProgressTodo.description = todo.description;
-            $scope.editInProgressTodo.creationDate = todo.creationDate;
-            $scope.editInProgressTodo.status = todo.status;
-            $scope.editInProgressTodo.starttime = todo.startTime;
-
+            $scope.editInProgressTodo.account = todo.account;
+            $scope.editInProgressTodo.current_activity = todo.current_activity;
+            $scope.editInProgressTodo.current_task = todo.current_task;
+            $scope.editInProgressTodo.contact = todo.contact;
+            $scope.editInProgressTodo.creationdate = todo.creationdate;
+            $scope.editInProgressTodo.role = todo.role;
+            $scope.editInProgressTodo.usecase = todo.usecase;
+            $scope.editInProgressTodo.note = todo.note;
+            $scope.editInProgressTodo.Action_plan = todo.Action_plan;
+            $scope.editInProgressTodo.user = todo.user;
+            $scope.editInProgressTodo.email_template = todo.email_template;
+            $scope.editInProgressTodo.creationdate = todo.creationdate;
+            $scope.editInProgressTodo.startdate = todo.startdate;
+            $scope.editInProgressTodo.enddate = todo.enddate;
             $scope.editInProgressTodo.id = todo.id;
             $scope.editInProgressTodo.isComplete = todo.isComplete;
             $scope.editingInProgress = true;
@@ -80,21 +101,37 @@ angular.module('todoApp')
             $scope.editingInProgress = false;
         }
         todoListSvc.postItem({
-            'Subject': $scope.newToDoSubject,
-            'Name': $scope.newToDoName,
-            'Description': $scope.newToDoDescription,
-            'CreationDate': $scope.newToDoCreationDate,
-            'Status': $scope.newToDoStatus,
-            'StartTime': $scope.newToDoStartTime,
+            
+            'account': $scope.newToDoaccount,
+            'current_activity': $scope.newToDocurrent_activity,
+            'current_task': $scope.newToDocurrent_task,
+            'contact': $scope.newToDocontact,
+            'role': $scope.newToDorole,
+            'Usecase': $scope.newToDousecase,
+            'note': $scope.newToDonote,
+            'action_plan': $scope.newToDoAction_plan,
+            'Email_template': $scope.newToDoemail_template,
+            'user': $scope.newToDouser,
+            'creationdate': $scope.newToDocreationdate,
+            'startdate': $scope.newToDostartdate,
+            'enddate': $scope.newToDoenddate,
             'IsComplete': false
+
         }).success(function (results) {
             $scope.loadingMsg = "";
-            $scope.newToDoSubject = "";
-            $scope.newToDoName = "";
-            $scope.newToDoDescription = "";
-            $scope.newToDoCreationDate ="";
-            $scope.newToDoStatus ="";
-            $scope.newToDoStartTime = "";
+            $scope.newToDoaccount = "";
+            $scope.newToDocurrent_activity = "";
+            $scope.newToDocurrent_task = "";
+            $scope.newToDocontact ="";
+            $scope.newToDorole ="";
+            $scope.newToDousecase = "";
+            $scope.newToDonote = "";
+            $scope.Action_plan= "";
+            $scope.email_template= "";
+            $scope.user="";
+            $scope.creationdate="";
+            $scope.startdate="";
+            $scope.enddate="";
             
             $scope.populate();
         }).error(function (err) {
