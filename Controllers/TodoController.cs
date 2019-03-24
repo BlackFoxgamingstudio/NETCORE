@@ -22,7 +22,7 @@ namespace TodoApi.Controllers
 
             if (_context.TodoItems.Count() == 0)
             {
-                _context.TodoItems.Add(new TodoItem {Status = "Status1", CreationDate = "CreationDate1", StartTime = "StartTime1", Description= "Description1", Subject = "Subject1", Name = "Item1" });
+                _context.TodoItems.Add(new TodoItem {account = "account", current_activity = "current_activity", current_task= "current_task", contact = "contact", role = "role", usecase = "usecase", note = "note", action_plan = "action_plan", Email_template="Email_template", user="user", creationdate="creationdate", startdate="startdate", enddate="enddate" });
                 _context.SaveChanges();
             }
         }
@@ -79,12 +79,19 @@ namespace TodoApi.Controllers
             }
 
             todo.IsComplete = item.IsComplete;
-            todo.Name = item.Name;
-            todo.Subject = item.Subject;
-            todo.Status = item.Status;
-            todo.Description = item.Description;
-            todo.CreationDate = item.CreationDate;
-            todo.StartTime = item.StartTime;
+            todo.account = item.account;
+            todo.current_activity = item.current_activity;
+            todo.current_task = item.current_task;
+            todo.contact = item.contact;
+            todo.role = item.role;
+            todo.usecase = item.usecase;
+            todo.note = item.note;
+            todo.action_plan = item.action_plan;
+            todo.Email_template = item.Email_template;
+            todo.user = item.user;
+            todo.creationdate = item.creationdate;
+            todo.startdate = item.startdate;
+            todo.enddate = item.enddate;
             
             _context.TodoItems.Update(todo);
             _context.SaveChanges();
