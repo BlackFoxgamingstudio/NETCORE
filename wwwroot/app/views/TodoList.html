@@ -3,13 +3,20 @@
     <p>{{loadingMessage}}</p>
     <div class="panel">
         <div class="input-group">
-            <input ng-model="newToDoSubject" class="form-control" style="width: 16.6666666667%" placeholder="Subject"/>
-            <input ng-model="newToDoName" class="form-control" style="width: 16.6666666667%" placeholder="name" />
-            <input ng-model="newToDoDescription" class="form-control"  style="width: 16.6666666667%" placeholder="description"/>
-            <input ng-model="newToDoCreationDate" class="form-control"  style="width: 16.6666666667%" placeholder="CreationDate" />
-            <input ng-model="newToDoStatus" class="form-control" style="width: 16.6666666667%" placeholder="status" />
-            <input ng-model="newToDoStartTime" class="form-control" style="width: 16.6666666667%" placeholder="StartTime" />
-           
+                
+            <input ng-model="newToDoaccount" class="form-control" style="width: 10%" placeholder="account"/>
+            <input ng-model="newToDocurrent_activity" class="form-control" style="width: 10%" placeholder="current_activity" />
+            <input ng-model="newToDocurrent_task" class="form-control"  style="width: 10%" placeholder="current_task"/>
+            <input ng-model="newToDocontact" class="form-control"  style="width: 10%" placeholder="contact" />
+            <input ng-model="newToDorole" class="form-control" style="width: 10%" placeholder="role" />
+            <input ng-model="newToDousecase" class="form-control" style="width: 10%" placeholder="usecase" />
+            <input ng-model="newToDonote" class="form-control" style="width: 10%" placeholder="note" />
+            <input ng-model="newToDoaction_plan" class="form-control" style="width: 10%" placeholder="action_plan" />
+            <input ng-model="newToDoemail_template" class="form-control" style="width: 10%" placeholder="email_template" />
+            <input ng-model="newToDouser" class="form-control" style="width: 10%" placeholder="user" />
+            <input ng-model="newToDocreationdate" class="form-control" style="width: 10%" placeholder="creationdate" />
+            <input ng-model="newToDostartdate" class="form-control" style="width: 10%" placeholder="startdate" />
+            <input ng-model="newToDoenddate" class="form-control" style="width: 10%" placeholder="enddate" />
             <span class="input-group-btn">
                 <button ng-click="add();" class="btn btn-default">Add</button>
             </span>
@@ -18,29 +25,53 @@
             <tbody>
                 <tr data-ng-repeat="item in todoList">
                     <td>
- 
-                        <span>{{item.subject}}</span>
+                           
+                        <span>{{item.account}}</span>
                         <span>|</span>
-                        <span>{{item.name}}</span>
+                        <span>{{item.current_activity}}</span>
                         <span>|</span>
-                        <span>{{item.description}}</span>
+                        <span>{{item.current_task}}</span>
                         <span>|</span>
-                        <span>{{item.creationDate}}</span>
+                        <span>{{item.contact}}</span>
                         <span>|</span>
-                        <span>{{item.status}}</span>
+                        <span>{{item.role}}</span>
                         <span>|</span>
-                        <span>{{item.startTime}}</span>
+                        <span>{{item.usecase}}</span>
                         <span>|</span>
+                        <span>{{item.note}}</span>
+                        <span>|</span>
+                        <span>{{item.action_plan}}</span>
+                        <span>|</span>
+                        <span>{{item.email_template}}</span>
+                        <span>|</span>
+                        <span>{{item.user}}</span>
+                        <span>|</span>
+                        <span>{{item.creationdate}}</span>
+                        <span>|</span>
+                        <span>{{item.startdate}}</span>
+                        <span>|</span>
+                        <span>{{item.enddate}}</span>
+                        <span>|</span>
+                       
                         <input type="checkbox" ng-model="item.isComplete" ng-disabled="!item.edit">                       
                         <span>|</span>
                         <div class="input-group">
-                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.subject" class="form-control" style="width: 16.6666666667%" /> 
-                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.name" class="form-control" style="width: 16.6666666667%"/>     
-                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.description" class="form-control" style="width: 16.6666666667%"/>     
-                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.creationDate" class="form-control" style="width: 16.6666666667%"/>     
-                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.status" class="form-control" style="width: 16.6666666667%"/>     
-                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.startTime" class="form-control" style="width: 16.6666666667%" />                            
-                        </div>
+                           
+                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.account" class="form-control" style="width: 10%" /> 
+                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.current_activity" class="form-control" style="width: 10%"/>     
+                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.current_task" class="form-control" style="width: 10%"/>     
+                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.contact" class="form-control" style="width: 10%"/>     
+                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.role" class="form-control" style="width: 10%"/>     
+                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.usecase" class="form-control" style="width: 10%" />                            
+                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.note" class="form-control" style="width: 10%" />                            
+                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.action_plan" class="form-control" style="width: 10%" />                            
+                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.email_template" class="form-control" style="width: 10%" />                            
+                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.user" class="form-control" style="width: 10%" />                            
+                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.creationdate" class="form-control" style="width: 10%" />                            
+                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.startdate" class="form-control" style="width: 10%" />                            
+                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.enddate" class="form-control" style="width: 10%" />                            
+
+                    </div>
                     </td>
                     <td>
                         <p data-ng-hide="item.edit || editingInProgress">
