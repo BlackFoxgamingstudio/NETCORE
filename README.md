@@ -6,7 +6,7 @@ I am working on an Azure Web Service that will host Rest API for my OneForALL LM
 Heres what I got:
 
 Text
-![Image of PoC test1](https://github.com/BlackFoxgamingstudio/NETCORE/test1.png)
+![Image of PoC test1](https://raw.githubusercontent.com/BlackFoxgamingstudio/NETCORE/master/test1.png)
 
 Text
 ![Image of PoC test2](https://github.com/BlackFoxgamingstudio/NETCORE/test2.png)
