@@ -35,7 +35,7 @@ This activity feed is fitered in a jinja2 template to only show Activity in the 
 4. Admin Pannel
 
 
-![Image of PoC export and update classes and projects](https://raw.githubusercontent.com/BlackFoxgamingstudio/NETCORE/master/Admin_Pannel.pnG)
+![Image of PoC export and update classes and projects](https://raw.githubusercontent.com/BlackFoxgamingstudio/NETCORE/master/Admin_Pannel.png)
 5. Google Sheets Integration
 
 
