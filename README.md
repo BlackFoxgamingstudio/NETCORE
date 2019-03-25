@@ -41,5 +41,5 @@ This activity feed is fitered in a jinja2 template to only show Activity in the 
 ## 5. Google Sheets Integration
 
 
-![Image of PoC export and update classes and projects](https://raw.githubusercontent.com/BlackFoxgamingstudio/NETCORE/master/test1.png)
+![Image of PoC export and update classes and projects](https://raw.githubusercontent.com/BlackFoxgamingstudio/NETCORE/master/GoglesheetsIntegration.png)
 
