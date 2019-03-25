@@ -1,4 +1,5 @@
-# NETCORE
+# NETCORE WEB SERVICE
+
 ## Building REST API
 
 I am working on an Azure Web Service that will host Rest API for my OneForALL LMS Application [link to OneForAll!](https://github.com/BlackFoxgamingstudio/OneForAll). The goal is to have the Python Flask application consume the .Net API's with this API geteway app. IT IS WORKING RIGHT NOW!:)
@@ -19,11 +20,12 @@ This activity feed is fitered in a jinja2 template to only show Activity in the 
 
 ## 1. Config
 
-   ### a. Refrance Doc:
+  a.  Refrance Doc:
    
-   ### b. .NETCore Command:
+  b. .NETCore Command:
+         ```dotnet run ToDoApi```
    
-   ### C.
+  c. 
    
 ## 2. LMS
 
