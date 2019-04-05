@@ -8,7 +8,10 @@ I am working on an Azure Web Service that will host Rest API for my OneForALL LM
 
 ## The Api GateWay PoCv1:
 
+###Input
 ![Image of PoC test1](https://raw.githubusercontent.com/BlackFoxgamingstudio/NETCORE/master/test1.png)
+
+###Output
 ![Image of PoC test1](https://raw.githubusercontent.com/BlackFoxgamingstudio/NETCORE/master/RabbitMQ.png)
 Above We are Testing a .NETCORE Web API that I can deploy to Azure. The first test needs to take project tasks to be used in Project views in the Oneforall app. 
 
