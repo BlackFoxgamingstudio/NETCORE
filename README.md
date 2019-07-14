@@ -47,7 +47,7 @@ In the image below you see the admin pannel to allow you to quickly edit your pr
 
 ![Image of PoC export and update classes and projects](https://raw.githubusercontent.com/BlackFoxgamingstudio/NETCORE/master/Admin_Pannel.png)
 ## 5. Google Sheets Integration
-If the Admin Pannel is to slow. you can upload in bulk using the googlesheets intigration. blackfox empleyees have the abilty to mass upload any number of projects, code, workflow, keywords or task for any user for a professional service charge.
+If the Admin Pannel is to slow. you can upload in bulk using the googlesheets intigration. blackfox empleyees have the ability to mass upload any number of projects, code, workflow, keywords or task for any user for a professional service charge.
 
 ![Image of PoC export and update classes and projects](https://raw.githubusercontent.com/BlackFoxgamingstudio/NETCORE/master/GoglesheetsIntegration.png)
 
